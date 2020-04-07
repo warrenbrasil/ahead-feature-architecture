@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<featureModel>
+	<properties>
+		<graphics key="showhiddenfeatures" value="true"/>
+		<graphics key="legendposition" value="880,98"/>
+		<graphics key="legendautolayout" value="false"/>
+		<graphics key="showshortnames" value="false"/>
+		<graphics key="layout" value="horizontal"/>
+		<graphics key="showcollapsedconstraints" value="true"/>
+		<graphics key="legendhidden" value="false"/>
+		<graphics key="layoutalgorithm" value="2"/>
+	</properties>
+	<struct>
+		<and abstract="true" hidden="true" mandatory="true" name="b2b">
+			<graphics key="collapsed" value="false"/>
+			<and abstract="true" mandatory="true" name="DB">
+				<graphics key="collapsed" value="true"/>
+				<and abstract="true" mandatory="true" name="AccessControll">
+					<graphics key="collapsed" value="true"/>
+					<feature mandatory="true" name="AccessControllGet"/>
+					<feature mandatory="true" name="AccessControllFilter"/>
+					<and abstract="true" mandatory="true" name="AccessControllRegister">
+						<graphics key="collapsed" value="true"/>
+						<feature mandatory="true" name="AccessControllPatch"/>
+						<feature mandatory="true" name="AccessControllDelete"/>
+					</and>
+				</and>
+				<and abstract="true" mandatory="true" name="Administrator">
+					<graphics key="collapsed" value="true"/>
+					<feature mandatory="true" name="AdministratorGet"/>
+					<feature mandatory="true" name="AdministratorFilter"/>
+					<and abstract="true" mandatory="true" name="AdministratorRegister">
+						<graphics key="collapsed" value="true"/>
+						<feature mandatory="true" name="AdministratorPatch"/>
+						<feature mandatory="true" name="AdministratorDelete"/>
+					</and>
+				</and>
+				<and abstract="true" mandatory="true" name="AffiliateHistory">
+					<graphics key="collapsed" value="true"/>
+					<feature mandatory="true" name="AffiliateHistoryGet"/>
+					<feature mandatory="true" name="AffiliateHistoryFilter"/>
+					<and abstract="true" mandatory="true" name="AffiliateHistoryRegister">
+						<graphics key="collapsed" value="true"/>
+						<feature mandatory="true" name="AffiliateHistoryPatch"/>
+						<feature mandatory="true" name="AffiliateHistoryDelete"/>
+					</and>
+				</and>
+				<and abstract="true" mandatory="true" name="Attachment">
+					<graphics key="collapsed" value="true"/>
+					<feature mandatory="true" name="AttachmentGet"/>
+					<feature mandatory="true" name="AttachmentFilter"/>
+					<and abstract="true" mandatory="true" name="AttachmentRegister">
+						<graphics key="collapsed" value="true"/>
+						<feature mandatory="true" name="AttachmentPatch"/>
+						<feature mandatory="true" name="AttachmentDelete"/>
+					</and>
+				</and>
+				<and abstract="true" mandatory="true" name="Ban">
+					<graphics key="collapsed" value="true"/>
+					<feature mandatory="true" name="BanGet"/>
+					<feature mandatory="true" name="BanFilter"/>
+					<and abstract="true" mandatory="true" name="BanRegister">
+						<graphics key="collapsed" value="true"/>
+						<feature mandatory="true" name="BanPatch"/>
+						<feature mandatory="true" name="BanDelete"/>
+					</and>
+				</and>
+				<and abstract="true" mandatory="true" name="Brand">
+					<graphics key="collapsed" value="true"/>
+					<feature mandatory="true" name="BrandGet"/>
+					<feature mandatory="true" name="BrandFilter"/>
+					<and abstract="true" mandatory="true" name="BrandRegister">
+						<graphics key="collapsed" value="true"/>
+						<feature mandatory="true" name="BrandPatch"/>
+						<feature mandatory="true" name="BrandDelete"/>
+					</and>
+				</and>
+				<and abstract="true" mandatory="true" name="BrandAssociation">
+					<graphics key="collapsed" value="true"/>
+					<feature mandatory="true" name="BrandAssociationGet"/>
+					<feature mandatory="true" name="BrandAssociationFilter"/>
+					<and abstract="true" mandatory="true" name="BrandAssociationRegister">
+						<graphics key="collapsed" value="true"/>
+						<feature mandatory="true" name="BrandAssociationPatch"/>
+						<feature mandatory="true" name="BrandAssociationDelete"/>
+					</and>
+				</and>
+				<and abstract="true" mandatory="true" name="Cache">
+					<graphics key="collapsed" value="true"/>
+					<feature mandatory="true" name="CacheGet"/>
+					<feature mandatory="true" name="CacheFilter"/>
+					<and abstract="true" mandatory="true" name="CacheRegister">
+						<graphics key="collapsed" value="true"/>
+						<feature mandatory="true" name="CachePatch"/>
+						<feature mandatory="true" name="CacheDelete"/>
+					</and>
+				</and>
+				<and abstract="true" mandatory="true" name="Customer">
+					<graphics key="collapsed" value="true"/>
+					<feature mandatory="true" name="CustomerGet"/>
+					<feature mandatory="true" name="CustomerFilter"/>
+					<and abstract="true" mandatory="true" name="CustomerRegister">
+						<graphics key="collapsed" value="true"/>
+						<feature mandatory="true" name="CustomerPatch"/>
+						<feature mandatory="true" name="CustomerDelete"/>
+					</and>
+				</and>
+				<and abstract="true" mandatory="true" name="EmailNotification">
+					<graphics key="collapsed" value="true"/>
+					<feature mandatory="true" name="EmailNotificationGet"/>
+					<feature mandatory="true" name="EmailNotificationFilter"/>
+					<and abstract="true" mandatory="true" name="EmailNotificationRegister">
+						<graphics key="collapsed" value="true"/>
+						<feature mandatory="true" name="EmailNotificationPatch"/>
+						<feature mandatory="true" name="EmailNotificationDelete"/>
+					</and>
+				</and>
+				<and abstract="true" mandatory="true" name="ExternalValidation">
+					<graphics key="collapsed" value="true"/>
+					<feature mandatory="true" name="ExternalValidationGet"/>
+					<feature mandatory="true" name="ExternalValidationFilter"/>
+					<and abstract="true" mandatory="true" name="ExternalValidationRegister">
+						<graphics key="collapsed" value="true"/>
+						<feature mandatory="true" name="ExternalValidationPatch"/>
+						<feature mandatory="true" name="ExternalValidationDelete"/>
+					</and>
+				</and>
+				<and abstract="true" mandatory="true" name="Faq">
+					<graphics key="collapsed" value="true"/>
+					<feature mandatory="true" name="FaqGet"/>
+					<feature mandatory="true" name="FaqFilter"/>
+					<and abstract="true" mandatory="true" name="FaqRegister">
+						<graphics key="collapsed" value="true"/>
+						<feature mandatory="true" name="FaqPatch"/>
+						<feature mandatory="true" name="FaqDelete"/>
+					</and>
+				</and>
+				<and abstract="true" mandatory="true" name="FeatureControll">
+					<graphics key="collapsed" value="true"/>
+					<feature mandatory="true" name="FeatureControllGet"/>
+					<feature mandatory="true" name="FeatureControllFilter"/>
+					<and abstract="true" mandatory="true" name="FeatureControllRegister">
+						<graphics key="collapsed" value="true"/>
+						<feature mandatory="true" name="FeatureControllPatch"/>
+						<feature mandatory="true" name="FeatureControllDelete"/>
+					</and>
+				</and>
+				<and abstract="true" mandatory="true" name="Funnel">
+					<graphics key="collapsed" value="true"/>
+					<feature mandatory="true" name="FunnelGet"/>
+					<feature mandatory="true" name="FunnelFilter"/>
+					<and abstract="true" mandatory="true" name="FunnelRegister">
+						<graphics key="collapsed" value="true"/>
+						<feature mandatory="true" name="FunnelPatch"/>
+						<feature mandatory="true" name="FunnelDelete"/>
+					</and>
+				</and>
+				<and abstract="true" mandatory="true" name="Image">
+					<graphics key="collapsed" value="true"/>
+					<feature mandatory="true" name="ImageGet"/>
+					<feature mandatory="true" name="ImageFilter"/>
+					<and abstract="true" mandatory="true" name="ImageRegister">
+						<graphics key="collapsed" value="true"/>
+						<feature mandatory="true" name="ImagePatch"/>
+						<feature mandatory="true" name="ImageDelete"/>
+					</and>
+				</and>
+				<and abstract="true" mandatory="true" name="Invites">
+					<graphics key="collapsed" value="true"/>
+					<feature mandatory="true" name="InvitesGet"/>
+					<feature mandatory="true" name="InvitesFilter"/>
+					<and abstract="true" mandatory="true" name="InvitesRegister">
+						<graphics key="collapsed" value="true"/>
+						<feature mandatory="true" name="InvitesPatch"/>
+						<feature mandatory="true" name="InvitesDelete"/>
+					</and>
+				</and>
+				<and abstract="true" mandatory="true" name="Log">
+					<graphics key="collapsed" value="true"/>
+					<feature mandatory="true" name="LogGet"/>
+					<feature mandatory="true" name="LogFilter"/>
+					<and abstract="true" mandatory="true" name="LogRegister">
+						<graphics key="collapsed" value="true"/>
+						<feature mandatory="true" name="LogPatch"/>
+						<feature mandatory="true" name="LogDelete"/>
+					</and>
+				</and>
+				<and abstract="true" mandatory="true" name="PJAssociation">
+					<graphics key="collapsed" value="true"/>
+					<feature mandatory="true" name="PJAssociationGet"/>
+					<feature mandatory="true" name="PJAssociationFilter"/>
+					<and abstract="true" mandatory="true" name="PJAssociationRegister">
+						<graphics key="collapsed" value="true"/>
+						<feature mandatory="true" name="PJAssociationPatch"/>
+						<feature mandatory="true" name="PJAssociationDelete"/>
+					</and>
+				</and>
+				<and abstract="true" mandatory="true" name="Portfolio">
+					<graphics key="collapsed" value="true"/>
+					<feature mandatory="true" name="PortfolioGet"/>
+					<feature mandatory="true" name="PortfolioFilter"/>
+					<and abstract="true" mandatory="true" name="PortfolioRegister">
+						<graphics key="collapsed" value="true"/>
+						<feature mandatory="true" name="PortfolioPatch"/>
+						<feature mandatory="true" name="PortfolioDelete"/>
+					</and>
+				</and>
+				<and abstract="true" mandatory="true" name="Post">
+					<graphics key="collapsed" value="true"/>
+					<feature mandatory="true" name="PostGet"/>
+					<feature mandatory="true" name="PostFilter"/>
+					<and abstract="true" mandatory="true" name="PostRegister">
+						<graphics key="collapsed" value="true"/>
+						<feature mandatory="true" name="PostPatch"/>
+						<feature mandatory="true" name="PostDelete"/>
+					</and>
+				</and>
+				<and abstract="true" mandatory="true" name="ProductOffer">
+					<graphics key="collapsed" value="true"/>
+					<feature mandatory="true" name="ProductOfferGet"/>
+					<feature mandatory="true" name="ProductOfferFilter"/>
+					<and abstract="true" mandatory="true" name="ProductOfferRegister">
+						<graphics key="collapsed" value="true"/>
+						<feature mandatory="true" name="ProductOfferPatch"/>
+						<feature mandatory="true" name="ProductOfferDelete"/>
+					</and>
+				</and>
+				<and abstract="true" mandatory="true" name="Pushs">
+					<graphics key="collapsed" value="true"/>
+					<feature mandatory="true" name="PushsGet"/>
+					<feature mandatory="true" name="PushsFilter"/>
+					<and abstract="true" mandatory="true" name="PushsRegister">
+						<graphics key="collapsed" value="true"/>
+						<feature mandatory="true" name="PushsPatch"/>
+						<feature mandatory="true" name="PushsDelete"/>
+					</and>
+				</and>
+				<and abstract="true" mandatory="true" name="Remote">
+					<graphics key="collapsed" value="true"/>
+					<feature mandatory="true" name="RemoteGet"/>
+					<feature mandatory="true" name="RemoteFilter"/>
+					<and abstract="true" mandatory="true" name="RemoteRegister">
+						<graphics key="collapsed" value="true"/>
+						<feature mandatory="true" name="RemotePatch"/>
+						<feature mandatory="true" name="RemoteDelete"/>
+					</and>
+				</and>
+				<and abstract="true" mandatory="true" name="Request">
+					<graphics key="collapsed" value="true"/>
+					<feature mandatory="true" name="RequestGet"/>
+					<feature mandatory="true" name="RequestFilter"/>
+					<and abstract="true" mandatory="true" name="RequestRegister">
+						<graphics key="collapsed" value="true"/>
+						<feature mandatory="true" name="RequestPatch"/>
+						<feature mandatory="true" name="RequestDelete"/>
+					</and>
+				</and>
+				<and abstract="true" mandatory="true" name="Security">
+					<graphics key="collapsed" value="true"/>
+					<feature mandatory="true" name="SecurityGet"/>
+					<feature mandatory="true" name="SecurityFilter"/>
+					<and abstract="true" mandatory="true" name="SecurityRegister">
+						<graphics key="collapsed" value="true"/>
+						<feature mandatory="true" name="SecurityPatch"/>
+						<feature mandatory="true" name="SecurityDelete"/>
+					</and>
+				</and>
+				<and abstract="true" mandatory="true" name="Term">
+					<graphics key="collapsed" value="true"/>
+					<feature mandatory="true" name="TermGet"/>
+					<feature mandatory="true" name="TermFilter"/>
+					<and abstract="true" mandatory="true" name="TermRegister">
+						<graphics key="collapsed" value="true"/>
+						<feature mandatory="true" name="TermPatch"/>
+						<feature mandatory="true" name="TermDelete"/>
+					</and>
+				</and>
+				<and abstract="true" mandatory="true" name="TermSignature">
+					<graphics key="collapsed" value="true"/>
+					<feature mandatory="true" name="TermSignatureGet"/>
+					<feature mandatory="true" name="TermSignatureFilter"/>
+					<and abstract="true" mandatory="true" name="TermSignatureRegister">
+						<graphics key="collapsed" value="true"/>
+						<feature mandatory="true" name="TermSignaturePatch"/>
+						<feature mandatory="true" name="TermSignatureDelete"/>
+					</and>
+				</and>
+				<and abstract="true" mandatory="true" name="Test">
+					<graphics key="collapsed" value="true"/>
+					<feature mandatory="true" name="TestGet"/>
+					<feature mandatory="true" name="TestFilter"/>
+					<and abstract="true" mandatory="true" name="TestRegister">
+						<graphics key="collapsed" value="true"/>
+						<feature mandatory="true" name="TestPatch"/>
+						<feature mandatory="true" name="TestDelete"/>
+					</and>
+				</and>
+				<and abstract="true" mandatory="true" name="Ticket">
+					<graphics key="collapsed" value="true"/>
+					<feature mandatory="true" name="TicketGet"/>
+					<feature mandatory="true" name="TicketFilter"/>
+					<and abstract="true" mandatory="true" name="TicketRegister">
+						<graphics key="collapsed" value="true"/>
+						<feature mandatory="true" name="TicketPatch"/>
+						<feature mandatory="true" name="TicketDelete"/>
+					</and>
+				</and>
+				<and abstract="true" mandatory="true" name="Tokens">
+					<graphics key="collapsed" value="true"/>
+					<feature mandatory="true" name="TokensGet"/>
+					<feature mandatory="true" name="TokensFilter"/>
+					<and abstract="true" mandatory="true" name="TokensRegister">
+						<graphics key="collapsed" value="true"/>
+						<feature mandatory="true" name="TokensPatch"/>
+						<feature mandatory="true" name="TokensDelete"/>
+					</and>
+				</and>
+				<and abstract="true" mandatory="true" name="Transactions">
+					<graphics key="collapsed" value="true"/>
+					<feature mandatory="true" name="TransactionsGet"/>
+					<feature mandatory="true" name="TransactionsFilter"/>
+					<and abstract="true" mandatory="true" name="TransactionsRegister">
+						<graphics key="collapsed" value="true"/>
+						<feature mandatory="true" name="TransactionsPatch"/>
+						<feature mandatory="true" name="TransactionsDelete"/>
+					</and>
+				</and>
+				<and abstract="true" mandatory="true" name="Watchlist">
+					<graphics key="collapsed" value="true"/>
+					<feature mandatory="true" name="WatchlistGet"/>
+					<feature mandatory="true" name="WatchlistFilter"/>
+					<and abstract="true" mandatory="true" name="WatchlistRegister">
+						<graphics key="collapsed" value="true"/>
+						<feature mandatory="true" name="WatchlistPatch"/>
+						<feature mandatory="true" name="WatchlistDelete"/>
+					</and>
+				</and>
+				<and abstract="true" mandatory="true" name="Address">
+					<graphics key="collapsed" value="true"/>
+					<feature mandatory="true" name="AddressGet"/>
+					<feature mandatory="true" name="AddressFilter"/>
+					<and abstract="true" mandatory="true" name="AddressRegister">
+						<graphics key="collapsed" value="true"/>
+						<feature mandatory="true" name="AddressPatch"/>
+						<feature mandatory="true" name="AddressDelete"/>
+					</and>
+				</and>
+				<and abstract="true" mandatory="true" name="AdvisorProfile">
+					<graphics key="collapsed" value="true"/>
+					<feature mandatory="true" name="AdvisorProfileGet"/>
+					<feature mandatory="true" name="AdvisorProfileFilter"/>
+					<and abstract="true" mandatory="true" name="AdvisorProfileRegister">
+						<graphics key="collapsed" value="true"/>
+						<feature mandatory="true" name="AdvisorProfilePatch"/>
+						<feature mandatory="true" name="AdvisorProfileDelete"/>
+					</and>
+				</and>
+				<and abstract="true" mandatory="true" name="BankAccount">
+					<graphics key="collapsed" value="true"/>
+					<feature mandatory="true" name="BankAccountGet"/>
+					<feature mandatory="true" name="BankAccountFilter"/>
+					<and abstract="true" mandatory="true" name="BankAccountRegister">
+						<graphics key="collapsed" value="true"/>
+						<feature mandatory="true" name="BankAccountPatch"/>
+						<feature mandatory="true" name="BankAccountDelete"/>
+					</and>
+				</and>
+				<and abstract="true" mandatory="true" name="Configuration">
+					<graphics key="collapsed" value="true"/>
+					<feature mandatory="true" name="ConfigurationGet"/>
+					<feature mandatory="true" name="ConfigurationFilter"/>
+					<and abstract="true" mandatory="true" name="ConfigurationRegister">
+						<graphics key="collapsed" value="true"/>
+						<feature mandatory="true" name="ConfigurationPatch"/>
+						<feature mandatory="true" name="ConfigurationDelete"/>
+					</and>
+				</and>
+				<and abstract="true" mandatory="true" name="CustomTheme">
+					<graphics key="collapsed" value="true"/>
+					<feature mandatory="true" name="CustomThemeGet"/>
+					<feature mandatory="true" name="CustomThemeFilter"/>
+					<and abstract="true" mandatory="true" name="CustomThemeRegister">
+						<graphics key="collapsed" value="true"/>
+						<feature mandatory="true" name="CustomThemePatch"/>
+						<feature mandatory="true" name="CustomThemeDelete"/>
+					</and>
+				</and>
+				<and abstract="true" mandatory="true" name="Document">
+					<graphics key="collapsed" value="true"/>
+					<feature mandatory="true" name="DocumentGet"/>
+					<feature mandatory="true" name="DocumentFilter"/>
+					<and abstract="true" mandatory="true" name="DocumentRegister">
+						<graphics key="collapsed" value="true"/>
+						<feature mandatory="true" name="DocumentPatch"/>
+						<feature mandatory="true" name="DocumentDelete"/>
+					</and>
+				</and>
+				<and abstract="true" mandatory="true" name="InvestmentProfile">
+					<graphics key="collapsed" value="true"/>
+					<feature mandatory="true" name="InvestmentProfileGet"/>
+					<feature mandatory="true" name="InvestmentProfileFilter"/>
+					<and abstract="true" mandatory="true" name="InvestmentProfileRegister">
+						<graphics key="collapsed" value="true"/>
+						<feature mandatory="true" name="InvestmentProfilePatch"/>
+						<feature mandatory="true" name="InvestmentProfileDelete"/>
+					</and>
+				</and>
+				<and abstract="true" mandatory="true" name="PersonalProfile">
+					<graphics key="collapsed" value="true"/>
+					<feature mandatory="true" name="PersonalProfileGet"/>
+					<feature mandatory="true" name="PersonalProfileFilter"/>
+					<and abstract="true" mandatory="true" name="PersonalProfileRegister">
+						<graphics key="collapsed" value="true"/>
+						<feature mandatory="true" name="PersonalProfilePatch"/>
+						<feature mandatory="true" name="PersonalProfileDelete"/>
+					</and>
+				</and>
+				<and abstract="true" mandatory="true" name="ProfessionalProfile">
+					<graphics key="collapsed" value="true"/>
+					<feature mandatory="true" name="ProfessionalProfileGet"/>
+					<feature mandatory="true" name="ProfessionalProfileFilter"/>
+					<and abstract="true" mandatory="true" name="ProfessionalProfileRegister">
+						<graphics key="collapsed" value="true"/>
+						<feature mandatory="true" name="ProfessionalProfilePatch"/>
+						<feature mandatory="true" name="ProfessionalProfileDelete"/>
+					</and>
+				</and>
+				<and abstract="true" mandatory="true" name="Suitability">
+					<graphics key="collapsed" value="true"/>
+					<feature mandatory="true" name="SuitabilityGet"/>
+					<feature mandatory="true" name="SuitabilityFilter"/>
+					<and abstract="true" mandatory="true" name="SuitabilityRegister">
+						<graphics key="collapsed" value="true"/>
+						<feature mandatory="true" name="SuitabilityPatch"/>
+						<feature mandatory="true" name="SuitabilityDelete"/>
+					</and>
+				</and>
+				<and mandatory="true" name="NewFeature14">
+					<graphics key="collapsed" value="true"/>
+					<or abstract="true" mandatory="true" name="Rea">
+						<graphics key="collapsed" value="true"/>
+						<and name="Nome">
+							<graphics key="collapsed" value="true"/>
+							<feature mandatory="true" name="Primeiro"/>
+							<feature mandatory="true" name="Sobrenomes"/>
+						</and>
+						<feature name="Email"/>
+						<feature name="Telefone"/>
+						<feature name="Cidade"/>
+						<feature name="Estado"/>
+						<feature name="Ocupacao"/>
+						<feature name="Instituicao"/>
+						<and name="Certificacoes">
+							<graphics key="collapsed" value="true"/>
+							<feature mandatory="true" name="CPA10"/>
+							<feature mandatory="true" name="CPA20"/>
+							<feature mandatory="true" name="CFP"/>
+							<feature mandatory="true" name="CGA"/>
+							<feature mandatory="true" name="CEA"/>
+							<feature mandatory="true" name="CFA"/>
+							<feature mandatory="true" name="CNPI"/>
+							<feature mandatory="true" name="ACIIA"/>
+						</and>
+						<feature name="Senha"/>
+					</or>
+				</and>
+				<feature mandatory="true" name="Login"/>
+				<and abstract="true" mandatory="true" name="Produtos">
+					<graphics key="collapsed" value="true"/>
+					<feature mandatory="true" name="EditarProdutos"/>
+					<feature mandatory="true" name="ListarProdutos"/>
+					<and abstract="true" mandatory="true" name="CadastroProdutos">
+						<graphics key="collapsed" value="true"/>
+						<feature mandatory="true" name="CadastroProdutosPatch"/>
+						<feature mandatory="true" name="CadastroProdutosDelete">
+							<description>CadastroProdutosDelete</description>
+						</feature>
+					</and>
+				</and>
+				<and mandatory="true" name="CriarAlocação">
+					<graphics key="collapsed" value="true"/>
+					<feature mandatory="true" name="PlanejarAlocacao"/>
+				</and>
+				<feature mandatory="true" name="Custos"/>
+				<and abstract="true" mandatory="true" name="Marca">
+					<graphics key="collapsed" value="true"/>
+					<and mandatory="true" name="CriarMarca">
+						<graphics key="collapsed" value="true"/>
+						<feature mandatory="true" name="NomeDaMarca"/>
+						<feature mandatory="true" name="DonoDaMarca"/>
+					</and>
+					<feature mandatory="true" name="EditarMarca"/>
+				</and>
+				<and mandatory="true" name="DefinirPersona">
+					<graphics key="collapsed" value="true"/>
+					<and abstract="true" mandatory="true" name="Parceiro">
+						<graphics key="collapsed" value="true"/>
+						<feature mandatory="true" name="CriarParceiro"/>
+					</and>
+					<and abstract="true" mandatory="true" name="Cliente">
+						<graphics key="collapsed" value="true"/>
+						<feature mandatory="true" name="CriarCliente"/>
+					</and>
+				</and>
+			</and>
+			<and abstract="true" mandatory="true" name="Features">
+				<graphics key="collapsed" value="false"/>
+				<feature mandatory="true" name="SaldoBruto"/>
+				<feature mandatory="true" name="SaldoLíquido"/>
+				<feature mandatory="true" name="Leads"/>
+				<and mandatory="true" name="FCustomers">
+					<graphics key="collapsed" value="false"/>
+					<feature mandatory="true" name="FindCustomer"/>
+				</and>
+				<feature mandatory="true" name="InviteLink"/>
+				<and mandatory="true" name="FBrand">
+					<graphics key="collapsed" value="false"/>
+					<feature mandatory="true" name="ReadBrandName"/>
+				</and>
+				<and mandatory="true" name="FCustomerDetails">
+					<graphics key="collapsed" value="false"/>
+					<feature mandatory="true" name="ReadCustomerDetails"/>
+				</and>
+				<and mandatory="true" name="FCustomerTransactions">
+					<graphics key="collapsed" value="false"/>
+					<feature mandatory="true" name="CustomerTransactionsRead"/>
+				</and>
+				<and mandatory="true" name="FCustomerGoals">
+					<graphics key="collapsed" value="false"/>
+					<feature mandatory="true" name="ReadCustomerGoals"/>
+				</and>
+				<feature mandatory="true" name="FCustomerInvestmentProfile"/>
+				<feature mandatory="true" name="LoginAsCustomer"/>
+				<feature mandatory="true" name="SuggestObjective"/>
+				<feature mandatory="true" name="ReadProducts"/>
+				<feature mandatory="true" name="FilterProducts"/>
+				<feature mandatory="true" name="PlanAllocation"/>
+				<feature mandatory="true" name="RemoveProductFromWallet"/>
+				<feature mandatory="true" name="AddProductToWallet"/>
+				<feature mandatory="true" name="ReblanceWallet"/>
+				<feature mandatory="true" name="LockProduct"/>
+			</and>
+		</and>
+	</struct>
+</featureModel>
